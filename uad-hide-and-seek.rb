@@ -527,6 +527,13 @@ def plug_case_statement(plug)
     plugs << "UAD Neve 33609SE#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
     plugs << "UAD Neve 2254 E Dual#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
     plugs << "UAD Neve 2254 E#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
+  when /UAD API Vision Channel Strip Collection.#{PLUGIN_EXT}/
+    plugs << "UAD API Vision Channel Strip#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
+    plugs << "UAD API Vision Channel Strip Legacy#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
+  when /UAD Avalon VT-737sp Channel Strip.#{PLUGIN_EXT}/
+    plugs << "UAD Avalon VT-737sp#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
+  when /UAD C-Suite C-Vox Noise and Ambience Reduction.#{PLUGIN_EXT}/
+    plugs << "UAD C-Suite C-Vox#{PLUGIN_APPEND}.#{PLUGIN_EXT}"
   # New Plugs
   # ---------
   # when /UAD Plugin Name From UADSystemProfile.txt file.#{PLUGIN_EXT}/
