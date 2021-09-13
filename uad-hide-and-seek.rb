@@ -179,7 +179,7 @@ file_handle.close
 plugin_array_with_authorizations =
   content
     .split("UAD-2 Plug-in Authorizations").last.strip # Get the content of the UAD System Profile text dump AFTER the "UAD-2 Plug-in Authorizations" heading (this is the list of plugins) and strip the whitespace characters from the front and back of the multi-line string
-    .split("\r\n") # split the string into an array on each newline
+    .split("\n") # split the string into an array on each newline
 
 all_plugs =
   plugin_array_with_authorizations
